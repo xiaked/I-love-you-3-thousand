@@ -1,7 +1,9 @@
 # 【HTML基础】
 
-> 本文档是个人对 Pink 老师课程的总结归纳及补充，转载请注明出处！ 
-
+> 本文档是个人对 Pink 老师课程的总结归纳及补充，转载请注明出处！
+> 基础班导学-精讲与实战
+>   电商项目：学成在线、小兔鲜儿
+>   时长：26h 每天4h，7天，25号学完
 # 一、HTML简介
 
 ## 1.1 网页
@@ -104,7 +106,7 @@ HTML 标签通常是成对出现的，例如：`<html>` 和 `</html>`，我们�
 ```html
 <head>
 </head>
-<body> 
+<body>
 </body>
 ```
 
@@ -190,7 +192,7 @@ HTML 标签通常是成对出现的，例如：`<html>` 和 `</html>`，我们�
 > `zh-TW` 中文（繁体，台湾）
 
 ```html
-<html lang="zh-CN"> 
+<html lang="zh-CN">
 </html>
 ```
 
@@ -253,7 +255,7 @@ IE 支持通过特定的 `<meta>` 标签来确定绘制当前页面所应该采�
 
 **简单的理解：**标签的含义，即：这个标签是用来干嘛的。
 
-### 2.4.2 标题标签 
+### 2.4.2 标题标签
 
 为了使网页更具有语义化，我们经常会在页面中用到标题标签。
 
@@ -426,7 +428,7 @@ HTML 提供了 6 个等级的网页标题，即：`<h1>` 到 `<h6>`。
 
 绝对路径：指目录下的绝对位置，直接到达目的位置，通常是从盘符开始的路径。
 
-如 Windows 系统的绝对路径：`D:\web\img\logo.png` 
+如 Windows 系统的绝对路径：`D:\web\img\logo.png`
 
 - 网络地址
 
@@ -460,7 +462,7 @@ HTML 提供了 6 个等级的网页标题，即：`<h1>` 到 `<h6>`。
 
 **（2）链接分类**
 
-- **外部链接：**例如：`<a href="http://www.baidu.com">百度</a>` 
+- **外部链接：**例如：`<a href="http://www.baidu.com">百度</a>`
 - **内部链接：**网站内部页面之间相互链接，直接链接内部页面名称即可，例如： `<a href="index.html">首页</a>`
 - **空链接：**如果当时没有确定链接目标时， `<a href="javascript:void(0)">首页</a>"`，当用户点击链接时，void(0) 计算为 0，但 Javascript 上没有任何效果
 - **下载链接：**如果 href 里面地址是一个文件或者压缩包（前提：路径包含文件类型后缀名，如：`.exe`、`.zip` 等），便会下载这个文件
@@ -986,22 +988,22 @@ HTML 中的注释以：`<!--` 开头，以 `-->` 结束。
 > ```html
 > <!doctype html>
 > <html lang="en">
-> 
+>
 > <head>
 >     <meta charset="UTF-8">
 >     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 >     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 >     <title>Document</title>
 > </head>
-> 
+>
 > <body>
 > <form action="http://127.0.0.1:8080/" method="get">
 >     <input type="hidden" name="name" value="周吉瑞">
 >     <input type="submit">
 > </form>
-> 
+>
 > </body>
-> 
+>
 > </html>
 > ```
 >
@@ -1359,7 +1361,7 @@ HTML 中的注释以：`<!--` 开头，以 `-->` 结束。
 <!-- 此方法目前暂不推荐使用 -->
 <head>
   <style>
-    iframe::-webkit-scrollbar { 
+    iframe::-webkit-scrollbar {
       display: none;
     }
   </style>
